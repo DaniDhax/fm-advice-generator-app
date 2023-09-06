@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+  /* COLOR *
+  /* Primary */
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+
+  /* Neutral */
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+
+  /* ? FONTS */
+  --ff-manrope: "Manrope", sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--ff-manrope);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--dark-blue);
+}
+
+
+.container {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 375px;
+  background-color: var(--dark-grayish-blue);
+}
+
+#advice-id {
+  color: var(--neon-green);
+  letter-spacing: 0.25rem;
+  padding: 15px 0;
+}
+
+#advice-text {
+  color: white;
+  font-size: 2rem;
+  padding: 25px 20px;
+}
+
+#btn-nueva-cita {
+  width: 75px;
+  height: 75px;
+  border: none;
+  border-radius: 50%;
+  margin-top: 50px;
+  background-color: var(--neon-green);
+  cursor: pointer;
+}
+
+
+
+@media (min-width: 900px) {
+
+
+
+
+
+}
